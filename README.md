@@ -1,3 +1,6 @@
+archiving this now that arch has an installer
+
+
 # arch
 Basic arch installer with optional WM/DE install
 
@@ -10,7 +13,7 @@ Basic arch installer with optional WM/DE install
 5. Ensure you have an EFI partition that's formatted in fat32 on your install drive (fdisk gpt type 1 / mkfs.vfat -F 32 /dev/[PARTITION])
 6. Run the following commands:
 ```
-wget https://raw.githubusercontent.com/soripants/arch/master/install.sh
+wget https://raw.githubusercontent.com/winghugs/arch/master/install.sh
 chmod +x install.sh
 ./install.sh
 ```
